@@ -17,7 +17,7 @@
 
 ## Результаты обучения
 ### Нормальный датасет (New normal dataset)
-#### 448 px 16 batch 900 epoch
+#### 448 px 10 batch 900 epoch
 1. obj_loss
 ![obj_loss](https://user-images.githubusercontent.com/86681516/162638034-56d4a3ce-8af0-4137-8954-c1b750eef164.png)
 2. box_loss
@@ -32,3 +32,19 @@
 ![metrics precision](https://user-images.githubusercontent.com/86681516/162638032-f361c80e-aa5f-4847-ad2c-da370e8ef792.png)
 7. metric recall
 ![metric recall](https://user-images.githubusercontent.com/86681516/162637930-9c4b0be6-0782-43e1-a0e3-94e67379e418.png)
+
+#### 448 px 16 batch 1200 epoch
+1. obj_loss
+![obj_loss](https://user-images.githubusercontent.com/86681516/162638151-fd457d8b-4892-43e8-955d-28aa8aa1fa06.png)
+2. box_loss
+![box_loss](https://user-images.githubusercontent.com/86681516/162638153-83770b95-e61c-4311-ab3e-e505e2be2562.png)
+3. cls_loss
+![cls_loss](https://user-images.githubusercontent.com/86681516/162638154-caac6aa3-1b0c-48da-a44f-e8d765ff8a19.png)
+4. mAP 0,5 - 0,95
+![mAP 0,5 - 0,95](https://user-images.githubusercontent.com/86681516/162638155-2b163c29-e5bb-4ca7-ad90-4ca7f6ff66bc.png)
+5. mAP 0,5
+![mAP 0,5](https://user-images.githubusercontent.com/86681516/162638156-a7cf1c83-8262-4f18-9ede-ddbf5773a5f0.png)
+6. metrics precision
+![metrics precision](https://user-images.githubusercontent.com/86681516/162638158-09f44350-866b-4731-8dbc-126d4592c381.png)
+7. metrics recall
+![metrics recall](https://user-images.githubusercontent.com/86681516/162638160-e9f20283-a3b1-4ac2-977a-b22df779536d.png)
