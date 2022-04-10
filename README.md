@@ -31,7 +31,7 @@
 6. metrics precision
 ![metrics precision](https://user-images.githubusercontent.com/86681516/162638032-f361c80e-aa5f-4847-ad2c-da370e8ef792.png)
 7. metric recall
-![metric recall](https://user-images.githubusercontent.com/86681516/162637930-9c4b0be6-0782-43e1-a0e3-94e67379e418.png)
+![metrics recall](https://user-images.githubusercontent.com/86681516/162638228-ec1a4d31-45aa-44fd-8979-e4db6a9f550b.png)
 
 #### 448 px 16 batch 1200 epoch
 1. obj_loss
