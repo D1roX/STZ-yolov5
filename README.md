@@ -18,11 +18,18 @@
 ## Результаты обучения
 ### Нормальный датасет (старая версия с проекта на yolov4)
 Графики:
-1. ![box_loss](https://user-images.githubusercontent.com/86681516/162637652-bd3b2bd5-544d-4d0d-b466-dbcce7f021f8.png)
-2. ![obj_loss](https://user-images.githubusercontent.com/86681516/162637700-5d176cd9-da6e-4f30-988c-59997a367096.png)
-3. ![cls_loss](https://user-images.githubusercontent.com/86681516/162637669-48d5ded0-58e6-4a2c-8dd0-4831b7e26269.png)
-4. ![mAP 0,5 - 0,95](https://user-images.githubusercontent.com/86681516/162637676-ebf42406-8a20-4b17-ab5e-a7b35590f1b3.png)
-5. ![mAP 0,5](https://user-images.githubusercontent.com/86681516/162637680-f05705a7-430c-4d6c-a71c-55aa16187a62.png)
-6. ![metrics precision](https://user-images.githubusercontent.com/86681516/162637684-03b67dc5-c8ad-4071-b112-433dd389429d.png)
-7. ![metrics recall](https://user-images.githubusercontent.com/86681516/162637686-04ea1408-127c-40d2-8cc9-819fbf1ee91a.png)
+1. 
+![box_loss](https://user-images.githubusercontent.com/86681516/162637652-bd3b2bd5-544d-4d0d-b466-dbcce7f021f8.png)
+2. 
+![obj_loss](https://user-images.githubusercontent.com/86681516/162637700-5d176cd9-da6e-4f30-988c-59997a367096.png)
+3. 
+![cls_loss](https://user-images.githubusercontent.com/86681516/162637669-48d5ded0-58e6-4a2c-8dd0-4831b7e26269.png)
+4. 
+![mAP 0,5 - 0,95](https://user-images.githubusercontent.com/86681516/162637676-ebf42406-8a20-4b17-ab5e-a7b35590f1b3.png)
+5. 
+![mAP 0,5](https://user-images.githubusercontent.com/86681516/162637680-f05705a7-430c-4d6c-a71c-55aa16187a62.png)
+6. 
+![metrics precision](https://user-images.githubusercontent.com/86681516/162637684-03b67dc5-c8ad-4071-b112-433dd389429d.png)
+7. 
+![metrics recall](https://user-images.githubusercontent.com/86681516/162637686-04ea1408-127c-40d2-8cc9-819fbf1ee91a.png)
 
