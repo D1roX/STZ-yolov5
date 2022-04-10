@@ -17,6 +17,22 @@
 
 ## Результаты обучения
 ### Нормальный датасет (старая версия с проекта на yolov4)
+#### 448 px 16 batch 600 epoch
+1. box_loss
+![train box_loss](https://user-images.githubusercontent.com/86681516/162637874-409304b6-66a9-4a0a-8bb0-4bb954a7bf48.png)
+2. obj_loss
+![train obj_loss](https://user-images.githubusercontent.com/86681516/162637878-76f5be08-94a8-40ff-acfe-54bae8ca73d7.png)
+3. cls_loss
+![train cls_loss](https://user-images.githubusercontent.com/86681516/162637885-215da33f-83e5-4331-8ff3-b1155d45e4fd.png)
+4. mAP 0.5-0.95
+![mAP_0 5 0 95](https://user-images.githubusercontent.com/86681516/162637893-e5251eed-cd37-4c5d-a1b8-569887366fae.png)
+5. mAP 0.5
+![mAP_0 5](https://user-images.githubusercontent.com/86681516/162637907-cd525721-2cd3-45f5-8afa-e9bdf7d7198b.png)
+6. precision
+![metric precision](https://user-images.githubusercontent.com/86681516/162637921-be18eebd-d6fc-4849-bd53-9bd3288b5d4b.png)
+7. recall
+![metric recall](https://user-images.githubusercontent.com/86681516/162637930-9c4b0be6-0782-43e1-a0e3-94e67379e418.png)
+
 #### 448 px 16 batch 1200 epoch
 1. box_loss
 ![box_loss](https://user-images.githubusercontent.com/86681516/162637652-bd3b2bd5-544d-4d0d-b466-dbcce7f021f8.png)
