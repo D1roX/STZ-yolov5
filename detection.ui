@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #6561ac</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>900</width>
+     <height>900</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>900</height>
+    </size>
+   </property>
+   <widget class="QPushButton" name="getWeightsButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>690</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 16pt &quot;Segoe UI Black&quot;;
+color: rgb(85, 170, 255);	
+background-color: #373e4e;
+padding: 10px;</string>
+    </property>
+    <property name="text">
+     <string>Choose weights</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="updateCamerasButton">
+    <property name="geometry">
+     <rect>
+      <x>539</x>
+      <y>790</y>
+      <width>331</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 16pt &quot;Segoe UI Black&quot;;
+color: rgb(85, 170, 255);	
+background-color: #373e4e;
+padding: 10px;</string>
+    </property>
+    <property name="text">
+     <string>Update cameras</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>539</x>
+      <y>690</y>
+      <width>331</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 16pt &quot;Segoe UI Black&quot;;
+color: rgb(85, 170, 255);	
+background-color: #373e4e;
+padding: 10px;
+selection-background-color: #373e4e;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StartButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>790</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 16pt &quot;Segoe UI Black&quot;;
+color: rgb(85, 170, 255);	
+background-color: #373e4e;
+padding: 10px;</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>25</y>
+      <width>850</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 24pt &quot;Segoe UI Black&quot;;
+color: rgb(85, 170, 255);	</string>
+    </property>
+    <property name="text">
+     <string>waiting for camera</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weightsLabel">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>740</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 16pt &quot;Segoe UI Black&quot;;
+color: rgb(85, 170, 255);	
+background-color: #373e4e;
+padding: 10px;</string>
+    </property>
+    <property name="text">
+     <string>Here will be weights</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
