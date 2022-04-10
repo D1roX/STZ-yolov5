@@ -48,3 +48,5 @@
 ![metrics precision](https://user-images.githubusercontent.com/86681516/162638158-09f44350-866b-4731-8dbc-126d4592c381.png)
 7. metrics recall
 ![metrics recall](https://user-images.githubusercontent.com/86681516/162638160-e9f20283-a3b1-4ac2-977a-b22df779536d.png)
+
+Оставшиеся графики можно найти в папке config
