@@ -18,17 +18,17 @@
 ## Результаты обучения
 ### Нормальный датасет (New normal dataset)
 #### 448 px 16 batch 900 epoch
-1.metric recall
-![metric recall](https://user-images.githubusercontent.com/86681516/162637930-9c4b0be6-0782-43e1-a0e3-94e67379e418.png)
-2.box_loss
-![box_loss](https://user-images.githubusercontent.com/86681516/162638028-302fb1c2-8c9d-4f86-8de8-2f601f3bb85f.png)
-3.cls_loss
-![cls_loss](https://user-images.githubusercontent.com/86681516/162638029-f41e8b20-ff6e-4538-a062-aa7e98440d34.png)
-4.mAP 0,5 - 0,95
-![mAP 0,5 - 0,95](https://user-images.githubusercontent.com/86681516/162638030-2f5cc349-2d46-4298-96eb-1c4a658775e8.png)
-5.mAP 0,5
-![mAP 0,5](https://user-images.githubusercontent.com/86681516/162638031-11e71142-d76b-4233-a4fd-1b6518c9509e.png)
-6.metrics precision
-![metrics precision](https://user-images.githubusercontent.com/86681516/162638032-f361c80e-aa5f-4847-ad2c-da370e8ef792.png)
-7.obj_loss
+1. obj_loss
 ![obj_loss](https://user-images.githubusercontent.com/86681516/162638034-56d4a3ce-8af0-4137-8954-c1b750eef164.png)
+2. box_loss
+![box_loss](https://user-images.githubusercontent.com/86681516/162638028-302fb1c2-8c9d-4f86-8de8-2f601f3bb85f.png)
+3. cls_loss
+![cls_loss](https://user-images.githubusercontent.com/86681516/162638029-f41e8b20-ff6e-4538-a062-aa7e98440d34.png)
+4. mAP 0,5 - 0,95
+![mAP 0,5 - 0,95](https://user-images.githubusercontent.com/86681516/162638030-2f5cc349-2d46-4298-96eb-1c4a658775e8.png)
+5. mAP 0,5
+![mAP 0,5](https://user-images.githubusercontent.com/86681516/162638031-11e71142-d76b-4233-a4fd-1b6518c9509e.png)
+6. metrics precision
+![metrics precision](https://user-images.githubusercontent.com/86681516/162638032-f361c80e-aa5f-4847-ad2c-da370e8ef792.png)
+7. metric recall
+![metric recall](https://user-images.githubusercontent.com/86681516/162637930-9c4b0be6-0782-43e1-a0e3-94e67379e418.png)
