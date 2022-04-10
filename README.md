@@ -16,36 +16,19 @@
   + Recall измеряет, насколько хорошо вы находите все положительные образцы. Например, мы можем находить 80% от всех возможных положительных случаев в наших К лучших предсказаниях.
 
 ## Результаты обучения
-### Нормальный датасет (старая версия с проекта на yolov4)
-#### 448 px 16 batch 600 epoch
-1. box_loss
-![train box_loss](https://user-images.githubusercontent.com/86681516/162637874-409304b6-66a9-4a0a-8bb0-4bb954a7bf48.png)
-2. obj_loss
-![train obj_loss](https://user-images.githubusercontent.com/86681516/162637878-76f5be08-94a8-40ff-acfe-54bae8ca73d7.png)
-3. cls_loss
-![train cls_loss](https://user-images.githubusercontent.com/86681516/162637885-215da33f-83e5-4331-8ff3-b1155d45e4fd.png)
-4. mAP 0.5-0.95
-![mAP_0 5 0 95](https://user-images.githubusercontent.com/86681516/162637893-e5251eed-cd37-4c5d-a1b8-569887366fae.png)
-5. mAP 0.5
-![mAP_0 5](https://user-images.githubusercontent.com/86681516/162637907-cd525721-2cd3-45f5-8afa-e9bdf7d7198b.png)
-6. precision
-![metric precision](https://user-images.githubusercontent.com/86681516/162637921-be18eebd-d6fc-4849-bd53-9bd3288b5d4b.png)
-7. recall
+### Нормальный датасет (New normal dataset)
+#### 448 px 16 batch 900 epoch
+1.metric recall
 ![metric recall](https://user-images.githubusercontent.com/86681516/162637930-9c4b0be6-0782-43e1-a0e3-94e67379e418.png)
-
-#### 448 px 16 batch 1200 epoch
-1. box_loss
-![box_loss](https://user-images.githubusercontent.com/86681516/162637652-bd3b2bd5-544d-4d0d-b466-dbcce7f021f8.png)
-2. obj_loss
-![obj_loss](https://user-images.githubusercontent.com/86681516/162637700-5d176cd9-da6e-4f30-988c-59997a367096.png)
-3. cls_loss
-![cls_loss](https://user-images.githubusercontent.com/86681516/162637669-48d5ded0-58e6-4a2c-8dd0-4831b7e26269.png)
-4. mAP 0.5-0.95
-![mAP 0,5 - 0,95](https://user-images.githubusercontent.com/86681516/162637676-ebf42406-8a20-4b17-ab5e-a7b35590f1b3.png)
-5. mAP 0.5
-![mAP 0,5](https://user-images.githubusercontent.com/86681516/162637680-f05705a7-430c-4d6c-a71c-55aa16187a62.png)
-6. precision
-![metrics precision](https://user-images.githubusercontent.com/86681516/162637684-03b67dc5-c8ad-4071-b112-433dd389429d.png)
-7. recall
-![metrics recall](https://user-images.githubusercontent.com/86681516/162637686-04ea1408-127c-40d2-8cc9-819fbf1ee91a.png)
-
+2.box_loss
+![box_loss](https://user-images.githubusercontent.com/86681516/162638028-302fb1c2-8c9d-4f86-8de8-2f601f3bb85f.png)
+3.cls_loss
+![cls_loss](https://user-images.githubusercontent.com/86681516/162638029-f41e8b20-ff6e-4538-a062-aa7e98440d34.png)
+4.mAP 0,5 - 0,95
+![mAP 0,5 - 0,95](https://user-images.githubusercontent.com/86681516/162638030-2f5cc349-2d46-4298-96eb-1c4a658775e8.png)
+5.mAP 0,5
+![mAP 0,5](https://user-images.githubusercontent.com/86681516/162638031-11e71142-d76b-4233-a4fd-1b6518c9509e.png)
+6.metrics precision
+![metrics precision](https://user-images.githubusercontent.com/86681516/162638032-f361c80e-aa5f-4847-ad2c-da370e8ef792.png)
+7.obj_loss
+![obj_loss](https://user-images.githubusercontent.com/86681516/162638034-56d4a3ce-8af0-4137-8954-c1b750eef164.png)
